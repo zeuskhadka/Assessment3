@@ -1,7 +1,7 @@
 # Assessment3
 
 Overview:
-The provided code establishes a straightforward passenger booking system which enables users to enter details then select ferry services before receiving approval according to toal service cost. The system creates specific ticket IDs and approval references while enabling the production of booking statistics. The sytem operates using object_oriented methods through a central class named BookingSystem that manages customer data and ferry service specifications and booking approvals and booking performance logs. The BookingSystem class tracks multiple bookings through a global ticket ID counter.
+The provided code establishes a straightforward passenger booking system which enables users to enter details then select ferry services before receiving approval according to total service cost. The system creates specific ticket IDs and approval references while enabling the production of booking statistics. The system operates using object_oriented methods through a central class named BookingSystem that manages customer data and ferry service specifications and booking approvals and booking performance logs. The BookingSystem class tracks multiple bookings through a global ticket ID counter.
 
 Steps in the code:
 1. BookingSystem Class Initialization: When a new BookingSystem object is created, it initializes the passenger's details, such as ticket ID, passenger name, date of travel, and form of ID. The global ticket_id_counter is incremented to ensure unique ticket IDs.
