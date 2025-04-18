@@ -56,7 +56,7 @@ def main():
 
         elif choice == '3':
             print("Goodbye! 👋")
-            break  # Exit the program
+            break 
 
         else:
             print("Invalid choice, please try again.")
