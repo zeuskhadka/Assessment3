@@ -20,15 +20,15 @@ def main():
     #I am using the infinite loop over here
     while True:
 
-        print("\n--- Student Grade Adventure ---")
-        print("1. Add Student Data")
-        print("2. View All Students Data")
-        print("3. Exit")
+        print("\n... Student Grade Adventure ...")
+        print(" Add Student Data")
+        print(" View All Students Data")
+        print(" Exit")
 
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            # Step 1: Get student name, roll number, and grades
+            # Get student name, roll number, and grades
             name = input("Enter student's name: ")
             roll_no = input("Enter student's roll number: ")
             grades = []
@@ -48,14 +48,14 @@ def main():
 
         elif choice == '2':
             #  Displaying student data
-            print("\n--- All Students Data ---")
+            print("\n... All Students Data ...")
             for student in students:
                 name, roll_no, grades, average, result = student
                 print(
                     f"Name: {name}, Roll No: {roll_no}, Grades: {grades}, Average: {average}, Result: {result}")
 
         elif choice == '3':
-            print("Goodbye! 👋")
+            print("Goodbye! ")
             break 
 
         else:
@@ -64,3 +64,5 @@ def main():
 
 # Start the program
 main()
+
+
