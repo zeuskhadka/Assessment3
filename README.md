@@ -16,9 +16,9 @@ Software Design Principles;
 
 3. Open/Closed Principle: The code is open to extension(you can add more features), but closed to modification of core logic.
    
-4.Composition > Inheritance:   I chose to construct this project through composition which enables smaller reusable functions to be combined. The program became more understandable because of its composition design which provided future flexibility to modify and extend functionality.
+4. Composition > Inheritance:   I chose to construct this project through composition which enables smaller reusable functions to be combined. The program became more understandable because of its composition design which provided future flexibility to modify and extend functionality.
 
-5.Single Responsibility Principle: In this project, each function does exactly one job:
+5. Single Responsibility Principle: In this project, each function does exactly one job:
    a. Calculate_avegare()--> Calculates average
    b. Check_pass_fail()--> Checks result
    c. add_student()--> handles input
